@@ -1,3 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
 .row {
   width: 992px;
   margin-left: auto;
@@ -77,7 +85,14 @@ img {
 
 @media screen and (max-width: 420px) {
 
-  #lezioni {
+  .row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+  }
+
+#lezioni {
     color:green;
   }
 
@@ -97,10 +112,9 @@ img {
 #why .row>.first,
 #why .row>.second,
 #why .row>.third {
-  width: 33%;
+  width: 100%;
   margin-top: 40px;
   float:left;
-  background:white;
 }
 
   #why {
@@ -109,17 +123,13 @@ img {
   }
 
   #why .row img {
-    background-color:white;
+    background-color: #428bca;
     border-radius: 50%;
     padding: 30px;
   }
 
   .container.grey {
-    background-color:white;
+    background-color:#f9f9f9;
   }
-
-
-
-
 
 }
